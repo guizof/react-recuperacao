@@ -92,3 +92,7 @@ h3{
   display: flex;
   justify-content: center;
 }
+
+.Informacao{
+  width: 700px;
+}

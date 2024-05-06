@@ -3,6 +3,7 @@ import React from 'react'
 function Livro({titulo, autor, ano, sinopse, sinopse2}){
     return(
         <section className="Livro">
+            <img src="capafodasse.jpg" alt="imagem" />
             <div className="Informacao"> 
             <h1>{titulo}</h1>
             <p>{autor}</p>
@@ -10,7 +11,6 @@ function Livro({titulo, autor, ano, sinopse, sinopse2}){
             <p>{sinopse}</p>
             <p>{sinopse2}</p>
             </div>
-            <img src="capafodasse.jpg" alt="imagem" />
         </section>
     )
 }
